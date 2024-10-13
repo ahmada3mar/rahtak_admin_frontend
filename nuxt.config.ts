@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       env: "dev",
-      baseUrl: "http://rahtak.local/api",
+      baseUrl: "/api",
     },
   },
 
