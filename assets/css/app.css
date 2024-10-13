@@ -1,0 +1,108 @@
+
+:root{
+    --color-primary-500 : 36 60 90;
+    --color-primary-600 : 35 76 110;
+}
+.ring-emerald-500{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(16 185 129 / var(--tw-ring-opacity));
+}
+
+.ring-orange-500{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(249 115 22/var(--tw-ring-opacity));
+}
+
+.ring-cool-500{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(107 114 128/var(--tw-ring-opacity));
+}
+.ring-stone-500{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(107 114 128 /var(--tw-ring-opacity));
+}
+.gutter-stable{
+    scrollbar-gutter:stable !important
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9999994b;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.fhfhf{
+    transition: opacity 1s linear;
+}
+
+.nav-bar:hover{
+    width: 240px;
+}
+
+.nav-bar:hover .nav-name{
+    opacity: 1 !important;
+    width: unset;
+}
+
+
+.nav-bar:hover .long{
+    opacity:1 !important;
+    height: 100%;
+}
+
+.nav-bar:hover .short{
+    opacity:0 !important;
+    height: 0px;
+}
+
+.nav-bar:hover .nav-switch{
+    opacity: 1;
+}
+
+
+
+.dark {
+    @apply bg-gray-950
+}
+
+
+
+
+.nav-bar .router-link-active, .nav-parent:has(.router-link-exact-active) .nav-menu{
+    @apply bg-gray-200;
+    @apply dark:bg-primary-800;
+    @apply dark:hover:bg-primary-900;
+
+}
+
+
+
+
+
